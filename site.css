@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("pere_noel_015-3117316598.jpg");
+    margin: 0;
+    overflow-x: hidden;
+  }
+  html {
+    filter: brightness(70%) saturate(50%) contrast(90%);
+  } 
+  h5 {
+    font-size: 100px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(180, 100, 169), orange, yellow, rgb(49, 49, 49), rgb(153, 0, 255), rgb(69, 130, 0), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 100px;
+  }  
+
+  img:hover {
+    transform: scale(2.5);
+  }
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: fuchsia;
+    color: lime;
+    padding: 2rem;
+    font-size: 2rem;
+    border: 5px dashed cyan;
+    z-index: 9999;
+    cursor: pointer;
+    animation: wiggle 0.5s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  .photo1 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 400px;
+    height: auto; 
+  }
+  .photo2 {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    width: 400px;
+    height: auto; 
+  }
+  .photo3 {
+    position: absolute;
+    top: 750px;
+    left: 0;
+    width: 400px;
+    height: auto; 
+  }
+  .photo4 {
+    position: absolute;
+    top: 750px;
+    right: 0;
+    width: 400px;
+    height: auto; 
+  }
+  .photo5 {
+    position: absolute;
+    top: 1350px;
+    left: 0;
+    width: 400px;
+    height: auto; 
+  }
+  .photo6 {
+    position: absolute;
+    top: 1350px;
+    right: 0;
+    width: 400px;
+    height: auto; 
+  }
+  .photo7 {
+    position: absolute;
+    top: 1950px;
+    left: 0;
+    width: 400px;
+    height: auto; 
+  }
+  .photo8 {
+    position: absolute;
+    top: 1950px;
+    right: 0;
+    width: 400px;
+    height: auto; 
+  }
+  .photo9 {
+    position: absolute;
+    top: 2550px;
+    left: 0;
+    width: 400px;
+    height: auto; 
+  }
+  .poeme {
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+    font-weight: bold;
+    max-width: 600px;
+    color: rgb(255, 255, 0);
+  }
